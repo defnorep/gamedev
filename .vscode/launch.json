@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Firefox Localhost",
+      "type": "firefox",
+      "request": "attach",
+      "url": "http://localhost:8000/",
+      "webRoot": "${workspaceFolder}",
+      "pathMappings": [
+        {
+          "url": "http://localhost:8000",
+          "path": "${workspaceFolder}"
+        },
+        {
+          "url": "http://localhost",
+          "path": "${workspaceFolder}"
+        }
+      ]
+    }
+  ]
+}
